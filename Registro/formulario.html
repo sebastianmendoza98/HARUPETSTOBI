@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="ISO-8859-1">
+    <meta name="language" content="ES">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripcion" content="Pagina que te muestra la disponibilidad de alimentos,
+    el mas apto para las necesidades de mascota y tu bolsillo">
+    <meta name="autor" content="Juan Sebastian Mendoza Mendoza , sebasfacrewgmail.com">
+    <meta name="responder a" content="sebasfacrewgmail.com">
+    <meta name="robots" content="index/">
+    <link rel="stylesheet" href="../Registro/estilo.css">
+    
+    <title>HARUPETSTOBI</title>
+</head>
+<body>
+
+    
+    <header class="parallax2">
+ 
+    <main>
+
+       
+        <section>
+            <article>
+                <form action="../Registro/registro.php" method="get" autocomplete="off" class="formulario">
+                    <section class="letra">
+                        
+                        <h3 id="volver"><a href="../mascotas.html">Volver</a></h3>
+                        <a   id="logo1" href="../mascotas.html"><img src="../icono/apple-icon-144x144.png" alt="Logo harupetstobi"></a>
+                        <h3 id="registro">Registro</h3>
+
+                        <p>
+                            <label for="nombre">Nombre Completo:</label>
+                            <input type="text" name="nombre" id="nombre" size="140" maxlength="20"  required autofocus>
+                        </p>
+                       <br>
+                        <p>
+                            <label for="tipdoc">Tipo de Documento</label>
+                         <select name="tipdoc" id="tipdoc"> 
+                            <option value="ti">Tarjeta de Identidad</option> 
+                            <option value="cc"selected>Cedula de Ciudadania</option>
+                            <option value="ce">Cedula de Extranjeria</option>
+                         </select>
+                        </p>
+
+                        <p>
+                            <label for="numdoc">Numero de Documento:</label> 
+                            <input type="text" id="numdoc" name="numdoc" size="30" maxlength="10" required >
+                        </p>
+
+                        
+                            <label for="correo">Correo:</label>
+                            <input type="email" id="correo" name="correo"  pattern="[A-Za-z0-9._%+-]{3,}@
+                            [a-zA-Z]{3,}([.]{1}[a-zA-Z]{2,}|[.] {1}[a-zA-Z]{2,}[.]{1}[a-zA-Z]{2,})" required>
+                    
+                  
+
+                        <p>
+                            <label for="telefono">Telefono:</label>
+                            <input type="telefono" id="telefono" name="telefono" >
+                        </p>
+            
+                        
+                            <label for="gene">Género:</label> 
+                           
+                            <input type="radio" name="gen" value="Masculino"> Masculino 
+                          
+                            <input type="radio" name="gen" value="Femenino"> Femenino 
+                           
+                            <input type="radio" name="gen" value="Otro" > Otro
+     
+                        
+          
+
+                        
+                            <label for="contraseña">Contraseña:</label>
+                            <input type="password" id="contraseña" name="contraseña"  pattern=".{6,}" required>
+                        
+                  
+
+                        <p>
+                            <label for="contraseña1">Confirme Contraseña:</label>
+                            <input type="password" id="contraseña1" name="contraseña1"  pattern=".{6,}" required>
+                        </p>
+                                   
+                   
+                        <p>
+                            <label for="observaciones">Observaciones:</label>
+                            <br>
+                            <textarea id="observaciones" name="observaciones" cols="50" rows="5" ></textarea> 
+                        </p>
+    
+                          
+                        <p> 
+                            <button type="submit" id="start">Enviar</button> 
+                             <button type="reset" id="clean">Limpiar</button>
+                        </p>
+
+                    </section>
+                   
+                </form>
+                
+            </article>
+
+            <article class="abajo">
+                <ul>
+                    <li>¡Todo lo que necesitas para el cuidado de tu mascota!</li>
+                    <li>¡A un click de distancia!</li>
+                </ul>
+
+            </article>
+        </section>
+
+       
+    </main>
+
+    <br>
+    <br>
+    <footer>
+        <section class="galeria-redes">
+            <article class="sociales">
+                <a href="https://es-la.facebook.com/"><img src="../icono/facebook.png" alt="" ></a>
+            </article>
+            <article class="sociales">
+                <a href="https://api.whatsapp.com/send?phone=+57319617085"><img src="../icono/whatsapp.png" alt=""></a>
+            </article>
+            <article class="sociales">
+                <a href="https://www.youtube.com/"><img src="../icono/youtube.png" alt=""></a>
+            </article>
+            <main class="sociales">
+                <a href="https://www.instagram.com/?hl=es"><img src="../icono/instagram.png" alt=""></a>
+            </article>
+        </section>
+        <h2 class="titulo-final">&copy; SEBAS26 DESING 2021 / SEBASTIAN MENDOZA </h2>
+        <h2 class="titulo-final">&copy; Email: sebasfacrew@gmail.com </h2>
+        <h2 class="titulo-final">&copy; www.harupetstobi.com </h2>
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Licencia Creative Commons Atribución-NoComercial 4.0 Internacional</a>.
+    </footer>
+</header>
+</body>
+</html> 

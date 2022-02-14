@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: #cbcccf;
+    background-size: cover;
+}
+
+.Navegacion{
+    width: 90%; 
+    margin: auto;
+    background: #7c0303;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 70px;
+}
+
+.Navegacion ul{
+    list-style: none;
+}
+
+/*menu*/
+
+.Menu > li{
+    display: inline-block;
+}
+
+.Menu >li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #f3e5e5;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.Menu li a:hover{
+    color: rgb(41, 41, 46);
+    transition: all .2s;
+}
+
+/*submenu*/
+
+.submenu{
+    position: absolute;
+    background: #8306067a;
+    width: 120px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 2s;
+    border-radius: 5px;
+}
+
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: #ffff;
+    font-family: 'Open Sans';
+    text-decoration: none;
+}
+
+.Menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+
+.header-mision >h1{
+    color: #7a1010;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header-vision >h1{
+    color: #7a1010;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header-mision >h2{
+    color: #000000;
+    font-size: 30px;
+    text-align: justify;
+    margin-bottom: 50px;
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.header-vision >h2{
+    color: #000000;
+    font-size: 30px;
+    text-align: justify;
+    margin-bottom: 50px;
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+footer{
+    width: auto;
+    height: auto;
+    background-color: rgb(131, 12, 12);
+    color: white;
+    text-align: center;
+}
+
+
+.galeria-redes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.sociales{
+    position:absolute;
+    height: 5px;
+    padding: 50px;
+    width: 10px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    all:  scale(1);
+}
+
+.sociales> a > img{
+    width: 50px;
+    height: 50px;
+    object-fit:cover;
+    display: block;
+    position: center;
+}
+
+.sociales:hover{
+    border-radius: 1px;
+    all: scale(0);
+    transition: all 3s;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50px;
+}

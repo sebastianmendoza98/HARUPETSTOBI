@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>comentarios</title>
+<meta charset="UTF-8" />
+<meta name="Description" content="Formulario para comentarios">
+<meta name="Author" content="Juan sebastian mendoza mendoza">
+<meta name="Viewport" content="width=devide-width, initial-scale=1.0">
+<link rel="stylesheet" href="../formulario/estilo.css">
+</head>
+<body>
+    <header>
+        <nav class="Navegacion">
+            <ul class="Menu">
+                <li><a href="../mascotas.html">Inicio</a></li>
+                <li><a href="#">Nosotros</a>
+                    <ul class="submenu">
+                        <li><a href="#">Visión</a></li>
+                        <li><a href="#">Misión</a></li>
+                        <li><a href="../nosotros/nosotros.html">Contacto</a></li>
+                    </ul>
+                <li><a href="#">Servicios</a>
+                    <ul class="submenu">
+                        <li><a href="#">Veterinaria</a></li>
+                    </ul>
+                <li><a href="../formulario/formulario.html">Comentarios</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="contenedor" class="filter">
+        <h1>Formulario para comentarios</h1>
+        <form action="#" method="POST" enctype="multipart/form-data" autocomplete="off" >
+            <P>
+                <!--elemento etiqueta o label-->
+                <label for="PNombre">Primer Nombre:</label>
+                <!--elemento texto para ingresar nombre-->
+                <input type="text" id="PNombre" name="PNombre" size="30" placeholder="INTRODUCE PRIMER NOMBRE" minlength="3" maxlength="15" required/>
+            </P>
+    
+            <P>
+                <!--elemento etiqueta o label-->
+                <label for="SNombre">Segundo Nombre:</label>
+                <!--elemento texto para ingresar nombre-->
+                <input type="text" id="SNombre" name="SNombre" size="30" placeholder="INTRODUCE SEGUNDO NOMBRE" minlength="3" maxlength="15"/>
+            </P>
+    
+            <P>
+                <!--elemento etiqueta o label-->
+                <label for="PApellido">Primer apellido:</label>
+                <!--elemento texto para ingresar apellido-->
+                <input type="text" id="PApellido" name="PApellido" size="30" placeholder="INTRODUCE PRIMER APELLIDO" minlength="3" maxlength="15" required/>
+            </P>
+    
+            <P>
+                <!--elemento etiqueta o label-->
+                <label for="SApellido">Segundo apellido:</label>
+                <!--elemento texto para ingresar apellido-->
+                <input type="text" id="SApellido" name="SApellido" size="30" placeholder="INTRODUCE SEGUNDO APELLIDO" minlength="3" maxlength="15" />
+            </P>
+    
+            <P>
+                 <!--elemento etiqueta o label-->
+                <label for="Email">Email:</label>
+                <!--elemento texto para ingresar correo electronico-->
+                <input type="email" id="Email" name="Email" size="30" placeholder="INGRESA TU CORREO" minlength="10" maxlength="30" pattern="[A-Za-z0-9._%+-]{3,}@[a-zA-Z]{3,}([.]{1}[a-zA-Z]{2,}|[.]{1}[a-zA-Z]{2,}[.]{1}[a-zA-Z]{2,})"/>
+            </P>
+    
+            <select name="Tip_Doc" id="Tip_Doc">
+                <option value="TID">Tarjeta de identidad</option>
+                <option value="CCID">Cedula de cuidadania</option>
+                <option value="CCXT">Cedula de estranjeria</option>
+                <option value="Np">Numero de pasaporte</option>
+            </select>
+    
+            <p>
+                 <!--elemento etiqueta o label-->
+                <label for="Numdoc">Numero de documento</label>
+                <input type="text" id="Numdoc" name="Numdoc" placeholder="INGRESA EL NUMERO DE TU DOCUMENTO" size="35" />
+            </p>
+    
+            <p>
+                 <!--elemento etiqueta o label-->
+                <label for="Fecha">Fecha de nacimiento</label>
+                <input type="date" id="Fecha" name="Fecha" required/>
+            </p>
+    
+            <p>
+                 <!--elemento etiqueta o label-->
+                <label for="Fecha">Fecha de expedicion</label>
+                <input type="date" id="Fecha" name="Fecha" required/>
+            </p>
+    
+            <p>
+                 <!--elemento etiqueta o label-->
+                <label for="Fecha">Fecha del formulario</label>
+                <input type="date" id="Fecha" name="Fecha" required/>
+            </p>
+    
+            <p>
+                 <!--elemento etiqueta o label-->
+                <label for="Fecha">Hora del formulario</label>
+                 <!--elemento tiempo o hora-->
+                <input type="time" id="Fecha" name="Fecha" required/>
+            </p>
+    
+            <P>
+                <!--elemento etiqueta o label-->
+                <label for="Gen">Genero:</label><br>
+                <!--elemento radio botones para genero-->
+                <input type="radio" id="fem" name="Gen">Femenino<br>
+                <input type="radio" id="mas" name="Gen">Masculino<br>
+            </P>
+    
+            <P>
+                <!--elemento etiqueta o label-->
+                <label for="mascotas">Mascota:</label><br>
+                <!--elemento caja de chequero para elegir preferencias-->
+                <input type="checkbox" id="prr" name="prr">Perro<br>
+                <input type="checkbox" id="gat" name="gat">Gato<br>
+                <input type="checkbox" id="ot" name="ot">Otro<br>
+                <!--elemento de texto extendido-->
+                <textarea name="ot" id="ot" cols="30" rows="5" placeholder="MAXIMO 20 CARACTERES" minlength="5" maxlength="15"></textarea>
+            </P>
+    
+            <p>
+                 <!--elemento etiqueta o label-->
+                <label for="Observaciones">Observaciones</label><br>
+                 <!--elemento de texto extendido-->
+                <textarea name="Observaciones" id="Observaciones" cols="60" rows="6" placeholder="MAXIMO 200 CARACTERES" minlength="10" maxlength="200"></textarea>
+            </P>
+    
+            <p>
+                 <!--elemento boton-->
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpiar</button>
+            </p>
+        </form>
+    </main>
+    <footer>
+        <section class="galeria-redes">
+            <article class="sociales">
+                <a href="https://es-la.facebook.com/"><img src="../icono/facebook.png" alt="" ></a>
+            </article>
+            <article class="sociales">
+                <a href="https://api.whatsapp.com/send?phone=+57319617085"><img src="../icono/whatsapp.png" alt=""></a>
+            </article>
+            <article class="sociales">
+                <a href="https://www.youtube.com/"><img src="../icono/youtube.png" alt=""></a>
+            </article>
+            <main class="sociales">
+                <a href="https://www.instagram.com/?hl=es"><img src="../icono/instagram.png" alt=""></a>
+            </article>
+        </section>
+        <h2 class="titulo-final">&copy; SEBAS26 DESING 2021 / SEBASTIAN MENDOZA </h2>
+        <h2 class="titulo-final">&copy; Email: sebasfacrew@gmail.com </h2>
+        <h2 class="titulo-final">&copy; www.harupetstobi.com </h2>
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Licencia Creative Commons Atribución-NoComercial 4.0 Internacional</a>.
+    </footer>
+</body>
+</html>

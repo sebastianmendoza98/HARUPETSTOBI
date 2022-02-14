@@ -1,0 +1,502 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Josefin+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+                                                    
+
+ body{
+    background: #8b8b88;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 50px;
+    width: 100%;
+} 
+
+header{
+    height: 100%;
+}
+
+#logo{
+    float: left;
+    border-radius: 10px;
+}
+
+#logo1 img{
+    width: 300px;
+    height: 220px;
+    border-radius: 10px;
+}
+
+#logo2 img{
+    width: 90px;
+    height: 90px;
+    float: left;
+    text-decoration: none;
+}
+
+#nom-sitio{
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+    padding: 20px;
+    font-size: 40px;
+    background-color: #3d3736;
+    text-align: center; 
+}
+
+h1{
+    margin-top:10px ;
+    color: #1b1d1b;
+
+}
+
+p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+nav{    
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+                                                                     
+    background-color: #3d3837;   
+                                                                   
+}
+
+nav ul{
+    list-style: none;
+}
+
+ul li{
+                                                                            
+    display: inline-block;
+}
+
+ul li a{
+    display: block;
+    padding: 0px 100px;
+    color: rgb(97, 90, 81);
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color: #463a3c;
+    transition: all .3s;
+} 
+
+.submenu{
+    position: absolute;
+    background: #5f5652;
+    width: 50%;   
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+ }
+ 
+ .submenu li a{
+    display: block;
+    padding:10px;
+    color:rgb(112, 93, 93);
+    text-decoration: none;
+ }
+ 
+ ul li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+ } 
+ 
+.form{
+    height: 800px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;    
+   
+} 
+
+.form section{
+    background: white;
+    padding: 50px 50px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.8);    
+
+}
+
+.form .grupo{
+                                                                
+    display: inline-flexbox;
+   
+}
+
+#tipdoc{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#ciudad{
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 10px;
+    padding: 3px 80px;
+    text-align: justify;
+    font-size: 20px;
+
+}
+
+#volver{
+    margin-bottom: 2px;
+    margin-right: 300px;
+    
+}
+
+#volver a {
+    text-decoration: none;
+    color: #555048;
+}
+
+#registro a{
+    text-decoration: none;
+    color: #504b45;
+}
+
+#entrar a{
+    text-decoration: none;
+    color: #615956;
+}
+
+#usuario{
+    border-radius: 10px;
+    padding: 3px 40px;
+    text-align: justify;
+    font-size: 20px;
+
+}
+
+#pass{
+    border-radius: 10px;
+    padding: 3px 40px;
+    text-align: justify;
+    font-size: 20px;
+
+}
+
+.abajo{
+    margin-top: 100px;
+    padding: 80px 10px;
+    background: white ;
+    font-size: 26px;
+    font-weight: bold;
+    color: rgb(71, 64, 64);
+ }
+ 
+ .abajo ul{
+    list-style: none;
+ }
+ 
+ .abajo ul  li{
+    display: inline-block;
+    padding-left: 50px; 
+ }
+
+.formulario{
+    height: 800px; 
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    width: 45%;      
+    margin-bottom:700px;
+} 
+
+.formulario section{
+
+    background: white;
+    padding: 50px 50px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.8);    
+
+
+}
+
+.formulario .letra p{
+                                                                       
+    font-size: 15px;
+    display: inline-flexbox;
+
+}
+
+input{
+    background: none;
+    color: #c6c6c6;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid;
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+   font-family: 'Josefin Sans', sans-serif;
+   border-radius: 5px;
+   background: #9e988c;
+   color: #FFFACD;
+   margin-top: 20px;
+   padding: 5px 5px;
+}
+
+button:hover{
+    background:#8d867b ;
+    color: bisque;
+}
+
+button:active{
+    background: #fda014;
+}
+
+button a{
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    padding:50px 110px;
+}
+ 
+ footer{
+    background: rgb(236, 224, 204);
+    margin-top: 20%;
+}
+
+footer p{
+    text-align: center;
+}
+ .parallax{
+     width: 100%;
+     height: 100%;
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+
+ } 
+
+ .parallax2{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ }
+
+ .parallax3{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ }
+
+ 
+#registro{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-weight: 30px;
+    color: #1b1d1b;
+    font-size: 20px;
+}
+
+.ubicacion{
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif; 
+  color:  #252925;
+} 
+
+.slider{
+
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slider ul{
+    display: flex;
+    animation: cambio 20s infinite alternate linear;
+    width: 400%;
+}
+
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes cambio {
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+.slider1{
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    float: right;
+}
+
+.slider1 ul{
+    display: flex;
+    animation: cambio2 20s infinite alternate ;
+    width: 400%;
+}
+
+.slider1 li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider1 img{
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes cambio2 {
+    
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+.titulo{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Comfortaa', cursive;
+    color: #272926;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-weight: 100;
+
+}
+
+
+.contenedor{
+  
+    width: 100%;
+    max-width: 80%;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.contenedor .carta{
+    width: 330px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0,0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.contenedor .carta:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0,0, 0.2);
+}
+
+.contenedor .carta img{
+    width: 330px;
+    height: 220px;
+}
+
+.contenedor .carta h4{
+    font-weight: 600;
+}
+
+ .contenedor .carta p{               
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight:300;
+}
+
+.contenedor .carta a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+    font-size: 20px;
+}
+
+footer{
+    width: auto;
+    height: auto;
+    background-color: rgb(34, 32, 32);
+    color: white;
+    text-align: center;
+}
+
+
+.galeria-redes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.sociales{
+    position:absolute;
+    height: 5px;
+    padding: 80px;
+    width: 5px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    all:  scale(1);
+}
+
+.sociales> a > img{
+    width: 80px;
+    height: 80px;
+    object-fit:cover;
+    display: block;
+    position: center;
+}
+
+.sociales:hover{
+    border-radius: 1px;
+    all: scale(0);
+    transition: all 3s;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50px;
+}
